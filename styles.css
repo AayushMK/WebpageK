@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: tomato;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: large;
+}
+
+.logoC{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionsC{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.followC{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fcontent{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(226, 23, 23, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5em / 5em
+}
+
+.pbody{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+}
+
+.content{
+    background-color: #0E0A0B;
+    height: 100vh;
+    width: 70%;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Sofia", sans-serif;
+}
+.content1{
+    margin-left: 20%;
+    font-size: xx-large;
+}
+
+.imgbg{
+    background-color: brown;
+    height: 100vh;
+    width: 30%;
+    display: flex;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
