@@ -59,6 +59,12 @@ body{
     align-items: center;
     border-radius: 5em / 5em
 }
+.fcontent:hover{
+    font-size: x-large;
+    width: 200px;
+    height: 75px;
+    background-color: rgba(226, 185, 23, 0.5);
+}
 
 .pbody{
     position: absolute;
